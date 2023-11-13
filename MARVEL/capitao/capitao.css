@@ -1,0 +1,81 @@
+*{
+
+    font-family: "Oxanium", cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+body::before{
+    content: "";
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+.box{
+    display: flex;
+    list-style: none;
+}
+
+.primeiro{
+    display: flex;
+
+}
+
+.img{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    margin: 100px 150px 0px 100px;
+}
+
+.segundo{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    margin-left: 300px;
+    padding-top: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+h2{
+    color: white;
+    text-shadow: rgb(149, 228, 255) 1px 0 10px;
+    margin-left: 300px;
+}
+
+
+.habilidades{
+    font-size: 20px;
+    color: white;
+    text-shadow: rgb(149, 228, 255) 1px 0 10px;
+    margin-left: 300px;
+    
+}
+
+.seta{
+    color: white;
+    align-items: center;
+    position: absolute;
+}
+
+.seta :hover{
+    transform: scale(1.2);
+}
